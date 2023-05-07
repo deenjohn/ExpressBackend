@@ -6,7 +6,7 @@
   "editor.fontFamily": "",
 
   // Controls the font size.
-  "editor.fontSize": 16,
+  "editor.fontSize": 17,
 
   // Controls visibility of line numbers
   "editor.lineNumbers": true,
