@@ -1,0 +1,63 @@
+// Overwrite settings by placing them into your settings file.
+{
+  //-------- Editor configuration --------
+
+  // Controls the font family.
+  "editor.fontFamily": "",
+
+  // Controls the font size.
+  "editor.fontSize": 16,
+
+  // Controls visibility of line numbers
+  "editor.lineNumbers": true,
+
+
+  // Controls the rendering size of tabs in characters. Accepted values: "auto", 2, 4, 6, etc. If set to "auto", the value will be guessed when a file is opened.
+  "editor.tabSize": "auto",
+
+  // Controls if the editor will insert spaces for tabs. Accepted values:  "auto", true, false. If set to "auto", the value will be guessed when a file is opened.
+  "editor.insertSpaces": "auto",
+,
+
+  //-------- Files configuration --------
+
+  // Configure glob patterns for excluding files and folders.
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true
+  },
+
+  // The default character set encoding to use when reading and writing files.
+  "files.encoding": "utf8",
+
+  // When enabled, will trim trailing whitespace when you save a file.
+  "files.trimTrailingWhitespace": true,
+
+  //-------- Search configuration --------
+
+  // Configure glob patterns for excluding files and folders in searches. Inherits all glob patterns from the file.exclude setting.
+  "search.exclude": {
+    "**/node_modules": true
+  },
+
+  //-------- Git configuration --------
+
+  // Is git enabled
+  "git.enabled": true,
+
+  // Path to the git executable
+  "git.path": null,
+
+  // Whether auto fetching is enabled.
+  "git.autofetch": true,
+
+  //-------- JSON configuration --------
+
+  //-------- ESLint configuration --------
+
+  // Control whether eslint is enabled for JavaScript files or not.
+  "eslint.enable": true,
+
+  // The eslint options object to provide args to the eslint command.
+  "eslint.options": {}
+}
